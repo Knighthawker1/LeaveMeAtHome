@@ -1,0 +1,123 @@
+/*General Body*/
+
+body{
+  color: white;
+  background-color: #739122;
+  margin: 0 1em;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Abril Fatface';
+}
+
+#wrapper{
+  padding: 0 2em;
+}
+
+/*Nav*/
+
+nav img{
+  width: 50%;
+}
+#nav_menu ul li a{
+  text-align: center;
+  display: block;
+  font-weight:bold;
+}
+
+#nav_menu ul li a:hover,
+#nav_menu ul li a:focus{
+  background-color: white;
+  color: #739122;
+}
+
+.navbar{
+  background-color: #739122;
+}
+
+/*Home*/
+#Home{
+  margin: 1.5em 0;
+}
+
+.jumbotron{
+  background-color: white;
+  color: #739122;
+  text-align: center;
+}
+
+#HomeText img{
+  max-width: 50%;
+  float: right;
+}
+
+/*Services*/
+.services{
+  margin: 1.5em 0;
+}
+
+.card{
+  color: #739122;
+}
+
+.card ul li{
+  text-align: left;
+  padding-bottom: .5em;
+}
+
+/*Testimonials*/
+#testimonials{
+  padding: 1.5em 0;
+}
+
+/*Contact*/
+#contact{
+  margin: 1.5em 0;
+}
+
+/*Footer*/
+
+.footer{
+  padding: 1.5em 0;
+  background-color: #739122;
+}
+
+.footer h6{
+  display: none;
+}
+
+#ButtonSection{
+  width: 10em;
+  clear:both;
+  margin: 1.25em;
+}
+
+#ButtonSection a{
+  text-align: center;
+  display: block;
+  width: 70%;
+  padding: .7em 0;
+  font-weight:bold;
+  color: white;
+  background-color: darkgreen;
+}
+
+#FooterMain{
+  padding: 3.125em 0;
+}
+
+#FooterText{
+  text-align: center;
+}
+
+#SocialMedia{
+  display:flex;
+  justify-content: center;
+}
+
+#SocialMedia img{
+  width: 1em;
+  height: 1em;
+  margin: 0 0.3em;
+  background-color: white;
+}
